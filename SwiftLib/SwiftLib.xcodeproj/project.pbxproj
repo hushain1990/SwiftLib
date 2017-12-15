@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAAEF681FE3F5AC00C7D601 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAEF631FE3F5AB00C7D601 /* CardView.swift */; };
+		CEAAEF691FE3F5AC00C7D601 /* HMCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAEF641FE3F5AB00C7D601 /* HMCircleButton.swift */; };
+		CEAAEF6A1FE3F5AC00C7D601 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAEF651FE3F5AB00C7D601 /* Color.swift */; };
+		CEAAEF6B1FE3F5AC00C7D601 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAEF671FE3F5AC00C7D601 /* CornerView.swift */; };
 		CEB114F61FDE5B60001A3F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB114F51FDE5B60001A3F4E /* AppDelegate.swift */; };
 		CEB114F81FDE5B60001A3F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB114F71FDE5B60001A3F4E /* ViewController.swift */; };
 		CEB114FB1FDE5B60001A3F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB114F91FDE5B60001A3F4E /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEAAEF631FE3F5AB00C7D601 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CEAAEF641FE3F5AB00C7D601 /* HMCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMCircleButton.swift; sourceTree = "<group>"; };
+		CEAAEF651FE3F5AB00C7D601 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CEAAEF671FE3F5AC00C7D601 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		CEB114F21FDE5B60001A3F4E /* SwiftLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB114F51FDE5B60001A3F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB114F71FDE5B60001A3F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEAAEF621FE3F5AB00C7D601 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAEF631FE3F5AB00C7D601 /* CardView.swift */,
+				CEAAEF641FE3F5AB00C7D601 /* HMCircleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CEAAEF661FE3F5AC00C7D601 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAEF671FE3F5AC00C7D601 /* CornerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CEB114E91FDE5B60001A3F4E = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +159,9 @@
 		CEB115261FDE5BC4001A3F4E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CEAAEF621FE3F5AB00C7D601 /* Buttons */,
+				CEAAEF651FE3F5AB00C7D601 /* Color.swift */,
+				CEAAEF661FE3F5AC00C7D601 /* Views */,
 				CEB115271FDE5BEA001A3F4E /* Alert.swift */,
 			);
 			path = Utilities;
@@ -273,10 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAAEF691FE3F5AC00C7D601 /* HMCircleButton.swift in Sources */,
 				CEB114F81FDE5B60001A3F4E /* ViewController.swift in Sources */,
+				CEAAEF6A1FE3F5AC00C7D601 /* Color.swift in Sources */,
 				CEB114F61FDE5B60001A3F4E /* AppDelegate.swift in Sources */,
 				CEB115281FDE5BEA001A3F4E /* Alert.swift in Sources */,
 				CEB114FE1FDE5B60001A3F4E /* SwiftLib.xcdatamodeld in Sources */,
+				CEAAEF681FE3F5AC00C7D601 /* CardView.swift in Sources */,
+				CEAAEF6B1FE3F5AC00C7D601 /* CornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
